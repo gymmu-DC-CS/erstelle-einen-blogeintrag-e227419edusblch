@@ -9,7 +9,29 @@ body {
   background-color: rgb(162, 228, 255) 
   
 }
-
+.text-zentrieren {
+text-align: center;
+}
+h1 {
+  color: rgb(41, 142, 142);
+}
+table {
+  font-size: 20px;
+  border-collapse: collapse;
+  background-color: rgb(222, 238, 245);
+  box-shadow: 3px 3px 3px rgb(0, 0, 0,1);
+}
+td, th {
+  padding: 25px 55px;
+  text-align: left;
+}
+thead {
+  box-shadow:0 3px 6px ;
+  background-color: royalblue;
+}
+tr:nth-child(3){
+background-color: rgb(41, 142, 142);
+}
 
 
 
