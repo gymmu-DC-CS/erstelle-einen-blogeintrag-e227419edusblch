@@ -32,7 +32,24 @@ thead {
 tr:nth-child(3){
 background-color: rgb(41, 142, 142);
 }
+#quadrat {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+  animation-name: farbwechsel;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 
+}
+@keyframes farbwechsel {
+  from {background-color: red;}
+  to {background-color: white;}
+}
+ul.a {
+  list-style-type: square;
+  list-style-position: inside;
+}
 
 
 
