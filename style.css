@@ -33,8 +33,8 @@ tr:nth-child(3){
 background-color: rgb(41, 142, 142);
 }
 #quadrat {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   background-color: white;
   border: 2px solid black;
   animation-name: farbwechsel;
